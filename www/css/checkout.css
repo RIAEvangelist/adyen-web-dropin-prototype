@@ -1,0 +1,17 @@
+.notAdyen tr{
+    width:100%;
+}
+
+.notAdyen thead{
+    background:cornflowerblue;
+}
+
+.notAdyen td{
+    border: 1px solid black;
+    word-break: break-all;
+}
+
+.notAdyen tbody td:first-child{
+    width:25%;
+    background:lightgrey;
+}

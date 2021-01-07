@@ -1,0 +1,25 @@
+{
+  "name": "adyen-dropin-test",
+  "version": "0.0.0",
+  "description": "adyen dropin test ",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "@adyen/adyen-web": "^3.19.0",
+    "@adyen/api-library": "^6.0.3",
+    "copyfiles": "^2.4.1",
+    "node-http-server": "^8.1.3",
+    "strong-type": "^0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run emulate && node ./index.js",
+    "emulate": "npm i && copyfiles -V \"./node_modules/strong-type/**/*\" \"./www/\" && copyfiles -V \"./node_modules/@adyen/adyen-web/**/*\" \"./www/\""
+  },
+  "author": "Brandon Nozaki Miller",
+  "license": "ISC"
+}
