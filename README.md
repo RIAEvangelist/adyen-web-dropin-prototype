@@ -28,7 +28,7 @@ If you just wanted it to work in all modern standards-compliant browsers, you co
 
 # Overall Experience
 
-![I did not like it](http://www.reactiongifs.com/r/tmhnks.gif)
+![I did not like it](http://www.reactiongifs.com/r/jck.gif)
 
 While I feel there is a lot of room to grow, I was able to get things working because the core information was present in the docs. I did however have to infer a lot of how to handle things because the docs were inaccurate or incomplete. A certain amount of trial and error was required.
 
