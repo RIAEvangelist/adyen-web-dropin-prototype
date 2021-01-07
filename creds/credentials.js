@@ -1,4 +1,4 @@
-const apiKey='';
+const apiKey='a';
 const merchantAccount='';
 const originKey='';
 
