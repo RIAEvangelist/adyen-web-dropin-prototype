@@ -1,4 +1,4 @@
-# Explination of This Implementation
+# Explanation of This Implementation
 
 This is just a prototype, so I wrote it in ***fully*** native ES6 ESM without a transpiler or bundler. I also used my `strong-type` isomorphic node module. It uses `private class methods and members` which means for firefox you would need to set ***both the private class definition ES6 flags to true*** in FF. Had I not used that node module in the browser natively, it would run fine in FF as well.
 
